@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    font-family:  Courier, monospace;
+}
+html, 
+body{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(45deg,#008cff,#fc4bfc);
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-col{
+    flex-direction: column;
+}
+.flex-bt{
+    justify-content: space-between;
+}
+.poss-ab{
+    position: absolute;
+}
+.poss-rel{
+    position: relative;
+}
+.border{
+    border-radius: 10px;
+}
+.container{
+    width: 350px;
+    height: 280px;
+    background: #fff;
+    padding: 10px;
+}
+.box{
+    width: 350px;
+    height: 300px;
+    overflow: hidden;
+}
+.box .display{
+    width: 320px;
+    object-fit: cover;
+}
+#quoteBtn{
+    padding: 10px;
+    background: #1b1b1b;
+}
+.quote{
+    top: 4px;
+    left: 16px;
+    padding: 5px;
+    width: 318px;
+    height: 180px;
+    font-size: 0.9rem;
+}
+.quoteAuthor{
+    bottom: 45px;
+    right: 25px;
+    padding: 5px;
+}
