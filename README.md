@@ -23,10 +23,10 @@ This is a simple Quote Generator web application. It get weather data from [Quot
  - [Quotable.io](https://github.com/lukePeavey/quotable) - Used for the get weather data.
 
 ## Preview
-![Calendar](/preview.png)
+![Quote Generator](/preview.png)
 
 ## Demo 
-[Preview](https://manojit-007.github.io/Weather-app/)
+[Preview](https://manojit-007.github.io/Quote-Generator-app/)
 
 ## Author
 [manojit-007]
